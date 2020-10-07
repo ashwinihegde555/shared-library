@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def executeBuild(){
+node {
     try{
     stage('SCM'){
     git 'https://github.com/ashwinihegde555/Maven_DB.git'
