@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+def executeBuild(){
 node {
     try{
     stage('SCM'){
@@ -45,6 +45,7 @@ node {
          }  
     }
 }
-
+}
+return this;
 
   
