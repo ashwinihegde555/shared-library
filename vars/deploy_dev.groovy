@@ -1,4 +1,5 @@
 #!/usr/bin/env groovy
+@Library('shared-library@main')
 def executeBuild(){
 node {
     try{
